@@ -4,7 +4,7 @@ body {
   header{
     height: 3rem;
     width: 100%;
-    background-color: rgb(0, 110, 255);
+    background-color: black;
     top: 0;
     left: 0;
     position: fixed;
@@ -24,7 +24,7 @@ body {
   }
 #backgroud{
     
-    background-image: url("../trabalho_finallpi/FRUI\ TEMPUS.png");
+    background-image: url("../Projetofinal/FRUI\ TEMPUS.png");
     opacity: 0.25;
     width: 100vw;
     height: 130vh;
@@ -60,10 +60,9 @@ body {
     transition: margin-left .5s;
     padding: 16px;
     margin-top: 2rem;
+  
   }
-  #menu{
-    position: fixed;
-  }
+ 
   
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
@@ -80,11 +79,11 @@ body {
     
     }
     @keyframes carouselAnim {
-    0% { background-image: url("../trabalho_finallpi/Sala\ 1.png");  
+    0% { background-image: url("../Projetofinal/Sala\ 1.png");  
         background-repeat: no-repeat;
         background-size:cover;} 
 
-    100% { background-image: url("../trabalho_finallpi/Sala\ 2.jpg");  
+    100% { background-image: url("../Projetofinal/Sala\ 2.jpg");  
         background-repeat: no-repeat;
         background-size:cover;} 
     }
