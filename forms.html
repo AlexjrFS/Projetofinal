@@ -106,7 +106,7 @@
 
     meuForm.addEventListener('submit', ev => {
       ev.preventDefault();
-      const formData = new FormData(meuForm);
+      const formData = new FormData(Form);
       const produto = {};
 
 
@@ -122,19 +122,7 @@
       fetch('http://localhost:38000/app/produtos', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(produto)
-      })
-        .then(r => r.json())
-    })
-
-    FotoForm.addEventListener('submit', ev2 => {
-      ev2.preventDefault();
-      
-     
-      const formData2 = new FormData(FotoForm);
-      fetch('http://localhost:38000/app/produtos/' + id + '/photo', {
-        method: 'PUT',
-        body: formData2
+        body: JSON.stringify(produto) 
       })
         .then(r => r.json())
     })
@@ -156,7 +144,7 @@
           })
 
       } else {
-        document.getElementById('preencherFotoDiv').style.display="none"
+        return;
       }
     }
 
