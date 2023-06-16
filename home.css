@@ -1,15 +1,29 @@
-
+body{
+  margin: 0;
+}
   header{
     height: 3rem;
     width: 100%;
-    background-color: black;
+  background-color: black;
     top: 0;
     left: 0;
     position: fixed;
   }
 
 main{
-  margin-top: 5rem;
+  padding-top: 3rem;
+  background: linear-gradient(180deg, #2C2C2C 0%, rgba(40, 40, 40, 0) 99.97%, rgba(30, 30, 30, 0.265625) 99.98%, rgba(31, 31, 31, 0.239063) 99.99%);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin: 0;
+}
+#submitButton{
+  background-color: green;
+}
+
+#bar {
+color: white;
 }
 
   .sidenav {
@@ -19,16 +33,16 @@ main{
     z-index: 1;
     top: 0;
     left: 0;
+    
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top:px;
     margin-top: 3rem;
   }
 #backgroud{
     
-    background-image: url("../Projetofinal/FRUI\ TEMPUS.png");
-    opacity: 0.25;
+    opacity: 0.5;
     width: 100vw;
     height: 130vh;
     background-repeat: no-repeat;
@@ -95,5 +109,6 @@ main{
         text-align: center;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 5rem;
-        margin-top: 2rem
+        margin-top: 1rem;
+        color: white;
     }
